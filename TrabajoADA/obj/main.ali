@@ -1,0 +1,114 @@
+V "GNAT Lib v2011"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+R nnnnnnnnnnnnnnnnnnvnnvnnnvnnnnnnnvnnnnnnnnnnvnnnnnnvnnnnnnvnvvnnnnvnnnnnnnnnnnv1+nn
+
+U main%b		main.adb		f992b10f NE OO SU
+W actuadordef%s		actuadordef.adb		actuadordef.ali
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.timing_events%s  a-rttiev.adb	a-rttiev.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W reactordef%s		reactordef.adb		reactordef.ali
+W sensordef%s		sensordef.adb		sensordef.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D actuadordef.ads	20241205114032 14266458
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-reatim.ads		20110428140902 63f07669
+D a-rttiev.ads		20110428140902 22f35a33
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-c.ads		20110428140906 5421119b
+D i-cstrin.ads		20110428140906 341d0ddf
+D i-cstrea.ads		20110428140906 1bd72c32
+D main.adb		20241205113758 2c821b65
+D reactordef.ads	20241204201658 61dddfaa
+D sensordef.ads		20241205114044 a43e1b0b
+D system.ads		20110428140910 bc164b96
+D s-atacco.ads		20110428140906 1dc856ad
+D s-conca2.ads		20110428140906 fbd0f2fc
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-imgint.ads		20110428140906 02dbe0c2
+D s-multip.ads		20110428140908 38ac9f73
+D s-osinte.ads		20110428140908 ecf1fbfd
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stausa.ads		20110428140908 017a0a05
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-tasinf.ads		20110428140908 859198ad
+D s-taspri.ads		20110428140908 196697f7
+D s-taprop.ads		20110428140908 07f79e46
+D s-taskin.ads		20110428140908 b2eaee08
+D s-taprob.ads		20110428140908 502249e3
+D s-tassta.ads		20110428140908 e88ef99e
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D s-win32.ads		20110428140910 07238fa2
+D text_io.ads		20110428140910 45d626c9
+X 1 actuadordef.ads
+3K9*ActuadorDef 11e16 17|11w6 36r11
+4W19*Actuador 10e16 17|36r23
+7U17 iniciar 17|39s9
+X 2 ada.ads
+16K9*Ada 19e8 17|5r6 5r25 6r6 6r39
+X 7 a-reatim.ads
+39K13*Real_Time 139e18 17|5w10 5r29 6r10 6r43
+X 8 a-rttiev.ads
+38K23*Timing_Events 81e32 17|6w20 6r53
+X 11 a-textio.ads
+263U14*Put_Line 17|45s4 48s4
+X 17 main.adb
+13U11*Main 13b11 50l5 50t9
+15w4 r1{18|6W19} 44r4 46r4 47r4
+16w4 r2{18|6W19}
+17w4 r3{18|6W19}
+21i4 t1{integer} 44m23 44r23 45r44 47m23 47r23 48r44
+24T14 TareaCoordinadora 24d32 25l8 25e25 26b14 30l8 30t25
+27i7 temperatura{integer}
+33T14 TareaControladora 33d32 34b14 41l8 41t25
+35w7 s{19|8W19} 38r7
+36w7 a{1|4W19} 39r7
+X 18 reactordef.ads
+4K9*ReactorDef 17|9w6 15r17 16r17 17r17 24r42 33r42 18|13e15
+6W19*Reactor 17|15r28 16r28 17r28 24r53 33r53 18|12e15
+7U17 leerTemperatura 17|44s7 47s7
+8U17 aumentarTemp 17|46s7
+X 19 sensordef.ads
+7K9*SensorDef 17|10w6 35r11 19|20e14
+8W19*Sensor 17|35r21 19|19e14
+10U17 iniciar 17|38s9
+X 50 text_io.ads
+24K9*Text_IO=24:29 17|4w6 4r19
+

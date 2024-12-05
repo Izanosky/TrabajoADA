@@ -1,0 +1,56 @@
+V "GNAT Lib v2011"
+A -gnatA
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnvnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnn
+
+U actuadordef%b		actuadordef.adb		bdd8ddd5 NE OO PK IL
+W reactordef%s		reactordef.adb		reactordef.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+
+U actuadordef%s		actuadordef.ads		75fbbbf2 EE NE OO PK IL
+W reactordef%s		reactordef.adb		reactordef.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+
+D actuadordef.ads	20241205114032 14266458
+D actuadordef.adb	20241205113806 c8236627
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-c.ads		20110428140906 5421119b
+D i-cstrin.ads		20110428140906 341d0ddf
+D reactordef.ads	20241204201658 61dddfaa
+D system.ads		20110428140910 bc164b96
+D s-atacco.ads		20110428140906 1dc856ad
+D s-exctab.ads		20110428140906 66e51330
+D s-multip.ads		20110428140908 38ac9f73
+D s-osinte.ads		20110428140908 ecf1fbfd
+D s-parame.ads		20110428140908 03aa3b01
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stausa.ads		20110428140908 017a0a05
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-tasinf.ads		20110428140908 859198ad
+D s-taspri.ads		20110428140908 196697f7
+D s-taskin.ads		20110428140908 b2eaee08
+D s-taprob.ads		20110428140908 502249e3
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-win32.ads		20110428140910 07238fa2
+X 1 actuadordef.ads
+3K9*ActuadorDef 11l5 11e16 2|3b14 22l5 22t16
+4W19*Actuador 10l8 10e16 2|4b19 21l8 21t16
+5U17 abrirPuerta 2|5b17 8l11 8t22
+6U17 cerrarPuerta 2|10b17 13l11 13t23
+7U17 iniciar 7^25 2|15b17 19l11 19t18
+7p25 r(9|6W19) 2|15b25 17r21
+X 9 reactordef.ads
+4K9*ReactorDef 1|1w6 7r36 9r24 2|1w6 15r36 9|13e15
+6W19*Reactor 1|7r47 9r35 2|15r47 9|12e15
+
