@@ -1,0 +1,108 @@
+V "GNAT Lib v2011"
+A -gnatA
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+R nnnnnnnnnnnnnnnnnnvvnvnnnvnnnnnnnnnnvnnnnnnnvnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnv1+nn
+
+U actuadordef%b		actuadordef.adb		d813cea8 NE OO PK IL
+W ada.tags%s		a-tags.adb		a-tags.ali
+W reactordef%s		reactordef.adb		reactordef.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U actuadordef%s		actuadordef.ads		a86ae448 EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.timing_events%s  a-rttiev.adb	a-rttiev.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W reactordef%s		reactordef.adb		reactordef.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D actuadordef.ads	20241206191110 4ddc1114
+D actuadordef.adb	20241206192324 317a06ba
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-reatim.ads		20110428140902 63f07669
+D a-rttiev.ads		20110428140902 22f35a33
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-c.ads		20110428140906 5421119b
+D i-cstrin.ads		20110428140906 341d0ddf
+D i-cstrea.ads		20110428140906 1bd72c32
+D reactordef.ads	20241206191148 e163ffcf
+D system.ads		20110428140910 bc164b96
+D s-atacco.ads		20110428140906 1dc856ad
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-multip.ads		20110428140908 38ac9f73
+D s-osinte.ads		20110428140908 ecf1fbfd
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stausa.ads		20110428140908 017a0a05
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-tasinf.ads		20110428140908 859198ad
+D s-taspri.ads		20110428140908 196697f7
+D s-taprop.ads		20110428140908 07f79e46
+D s-taskin.ads		20110428140908 b2eaee08
+D s-taprob.ads		20110428140908 502249e3
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D s-win32.ads		20110428140910 07238fa2
+D text_io.ads		20110428140910 45d626c9
+X 1 actuadordef.ads
+6K9*ActuadorDef 18l5 18e16 2|4b14 32l5 32t16
+7W19*Actuador 17l8 17e16 2|5b19 31l8 31t16
+8U17 abrirPuerta 2|6b17 10l11 10t22
+9U17 cerrarPuerta 2|12b17 15l11 15t23
+10U17 iniciar 10^25 2|17b17 21l11 21t18
+10p25 r(18|6W19) 2|17b25 19r21
+11U17 Timer 11=23 2|9r81 23b17 28r81 29l11 29t16
+11r23 event{9|40R9} 2|23b23
+14o7 nextTime{8|41O9} 2|8r10 9r71 14r71 27r10 27r20 28r71
+15r7 salidaJitterControl{9|40R9} 2|9r50 14r50 28r50
+16o7 salidaPeriodo{8|46O9} 2|8r26 27r29
+X 3 ada.ads
+16K9*Ada 1|3r6 3r39 4r6 4r39 11r37 14r16 15r27 16r21 16r46 2|9r10 14r10 23r36
+. 28r10 3|19e8
+X 8 a-reatim.ads
+39K13*Real_Time 1|3w10 3r43 4r10 4r43 11r41 14r20 15r31 16r25 16r50 2|9r14
+. 14r14 23r40 28r14 8|139e18
+41O9*Time 1|14r30
+46O9*Time_Span 1|16r35
+53V13*Clock{41O9} 2|8s20
+55V13*"+"{41O9} 2|8s25 27s28
+85V13*Milliseconds{46O9} 1|16s60
+X 9 a-rttiev.ads
+38K23*Timing_Events 1|4w20 4r53 11r51 15r41 2|9r24 14r24 23r50 28r24 9|81e32
+40R9*Timing_Event 1|11r65 15r55 2|23r64 9|75e14
+45U14*Set_Handler 2|9s38 14s38 28s38
+X 18 reactordef.ads
+4K9*ReactorDef 1|1w6 10r36 13r24 2|1w6 17r36 18|13e15
+6W19*Reactor 1|10r47 13r35 2|17r47 18|12e15
+9U17 disminuirTemp 2|26s18
+X 46 text_io.ads
+24K9*Text_IO=24:29 1|2w6 2r39 2|2w6 2r19
+
